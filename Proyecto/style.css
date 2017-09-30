@@ -1,0 +1,1923 @@
+/* ------- Cosas generales de cada pagina ---------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important; 
+}
+
+body{
+		
+	
+	
+	background-color: #F5F4F1;
+	background-size: cover;
+	font-family: rale;
+
+
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+cite{
+
+	font-family: rale;
+	font-size: 14px;
+}
+
+@font-face{
+	font-family: rale;
+	src: url(fonts/Raleway-Regular.ttf);
+}
+
+@font-face{
+	font-family: lusitana;
+	src: url(fonts/Lusitana-Bold.ttf);
+}
+
+
+/* -------/Cosas generales de cada pagina ---------*/
+
+/* ----------------- CABECERA ---------------------*/
+
+header{
+	width: 1349px;
+	height: 70px;
+
+	
+	background: #FFFFFF;
+	/*background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+	background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	/*-webkit-box-shadow: inset 0px -2px 5px 0px rgba(250,201,118,1);
+    -moz-box-shadow: inset 0px -2px 5px 0px rgba(250,201,118,1);
+    box-shadow: inset 0px -2px 5px 0px rgba(250,201,118,1);*/
+
+	border-bottom: 1px solid darkgrey;
+
+
+}
+
+.ancho_cabecera{
+	width: 80%;
+	height: 70px;
+	margin: auto;
+
+
+	/*background-color: red;*/
+}
+
+
+.logo{
+	width: 30%;
+	height: 70px;
+	
+	float: left;
+	padding-top: 10px;
+	
+
+	/*background-color: blue;*/
+}
+
+.logo p a{
+
+	color: #DF7401;
+	font-size: 40px;
+
+	
+}
+
+.menu_cabecera{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 38px;
+	
+
+	/*background-color: green;*/
+
+}
+
+.menu_cabecera ul{
+	margin-left: 0;
+	background: 0;
+	padding: 0;
+}
+
+
+
+.menu_cabecera ul li{
+	display: inline;
+}
+
+.menu_cabecera ul li a{
+	color:black;
+	font-size: 12px;
+	text-decoration: none;
+	padding-left: 15px;
+	letter-spacing: 2px;
+	
+}
+
+.menu_cabecera ul li a:hover{
+	color: #FFA45A;
+
+}
+
+
+/* -----------------/CABECERA ---------------------*/
+
+/*-------------------TOOLBAR-----------------------*/
+.menu_toolbar{
+	width: 1349px;
+	height: auto;
+
+	text-align: left;
+	
+	background: #232526; 
+	background: -webkit-linear-gradient(to left, #232526 , #414345);
+	background: linear-gradient(to left, #232526 , #414345);
+	
+	
+}
+
+.menu_toolbar ul{
+	width: 90%;
+	height: 38px;
+	list-style: none;
+	margin-left: 5%;
+
+
+
+	/*background-color: pink;*/
+}
+
+.menu_toolbar li{
+	width: 200.50px;/*para que quepan cuatro en una fila si queremos modificar que quepan todos en una fila se hace aqui */
+	height: 38px;
+	float: left;
+
+
+	/*background-color: yellow;*/
+
+}
+
+/*.menu_toolbar ul li:nth-child(1){
+
+		border-left: 1px solid lightgrey;
+}*/
+
+.menu_toolbar ul li .contenedor_enlaces_toolbar{
+	
+	width: 218.560px;
+	height: 38px;
+	text-align: center;
+	padding-top: 10px;
+
+ 	/*border-right: 1px solid lightgrey;*/
+ 
+
+	
+	
+}
+
+
+
+.menu_toolbar ul li  .contenedor_enlaces_toolbar a{
+	
+	color: white;
+	font-size: 17px;
+	text-decoration: none;
+
+	
+}
+
+
+.menu_toolbar ul li .contenedor_enlaces_toolbar a:hover{
+	color:#FFA45A;
+}
+
+/*-------------------/TOOLBAR-----------------------*/
+
+/*--------------------FOOTER------------------------*/
+footer{
+	width: 1349px;
+	height: auto;
+
+}
+
+.row1{
+	width: 100%;
+	height: auto;
+	float: left;
+
+
+background-color: #333333;
+}
+
+
+.col1, .col2, .col3{
+
+	margin: 25px 0px 5px 135px;
+	float: left;
+
+	/*background-color: lightblue;*/
+}
+
+
+
+.row1 ul{
+
+	width: auto;
+	height: auto;
+	list-style: none;
+
+	/*background-color: green;*/
+}
+
+.row1 a{
+
+	color: white;
+	font-family: Arial,"Lucida Grande",sans-serif;
+	font-size: 11.5px;
+}
+
+.row1 li{
+
+	padding: 3.5px;
+	
+	
+	
+}
+
+
+.row1 p{
+
+	padding: 5px;
+	color: #CACACA;
+
+}
+
+/*.img_uni{
+
+	float: left;
+	background-color: red;
+}*/
+
+.img_uni img{
+	width: 80px;
+	height: 80px;
+	background-color: transparent;
+}
+
+.row2{
+
+	width: 100%;
+	height: auto;
+
+	/*background-color: purple;*/
+}
+
+
+.redes_sociales, .img_uni, .pago_seguro{
+
+	margin: 30px 130px;
+	float:left;
+	background-color: transparent;
+}
+
+
+.app_download img{
+
+	width: 150px;
+	height: 58px;
+}
+
+
+.pago_seguro img#Norton{
+
+	width: 80px;
+	height: 40px;
+	
+}
+
+.pago_seguro img#Confianza{
+
+	
+
+	width: 45px;
+	height: 45px;
+}
+
+.row3{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: #333333;
+}
+
+.row3 p{
+	padding: 5px;
+	margin:auto;
+	text-align: center;
+	font-family: "HelveticaNeue-Regular",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 10px;
+	color: #CACACA;
+}
+/*--------------------/FOOTER------------------------*/
+
+
+/*---------------------SLIDER-----------------------*/
+.slider_contenedor{
+
+	width: 1349px;
+	height: 400px;
+
+
+
+	/*background-color: pink;*/
+}
+
+
+.slider_contenedor .imagen_contenedor{
+	width: 100%;
+	height: 100%;
+	float: left;
+
+	/*background-color: lightgreen;*/
+	
+}
+
+.slider_contenedor .imagen_contenedor img{
+
+	width: 100%;
+	height: 100%;
+
+	
+}
+/*---------------------/SLIDER-----------------------*/
+
+/*-------------------- SEMILLAS ---------------------*/
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    font-size: 15px;
+ 
+   
+
+}
+
+ul.breadcrumb li {
+	display: inline;
+	
+	
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    font-size: 13px;
+    color: black;
+    content: ">\00a0";
+}
+
+
+
+ul.breadcrumb li a {
+
+    color: black;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #FFA45A;
+    
+}
+/*--------------------/SEMILLAS ---------------------*/
+
+
+
+/*--------------------TABLA --------------------*/
+
+.informacion_contenedor_gestion, .informacion_contenedor_gestion2{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    min-height: 600px;
+    margin: 1%;
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 92.4%;
+}
+
+.informacion_contenedor_gestion2{
+
+	min-height: 450px;
+}
+
+.informacion_contenedor_gestion table {
+	border-collapse : collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.informacion_contenedor_gestion caption {
+	text-align: left;
+	font-size: 22px;
+	padding: 10px;
+}
+
+.informacion_contenedor_gestion td, .informacion_contenedor_gestion th {
+    border: 1px solid #060606;
+    padding: 3px;
+    width: 0.1%;
+    text-align: center;
+}
+
+.informacion_contenedor_gestion th {
+    padding-top: 9px;
+    padding-bottom: 12px;
+
+    background-color: #2f2f2f;
+    color: orange;
+}
+
+.informacion_contenedor_gestion td {
+	height: 30px;
+}
+
+.informacion_contenedor_gestion a {
+	color: darkblue;
+	text-decoration: underline;
+}
+
+
+/*--------------------/TABLA --------------------*/
+
+
+
+/*--------------------ASIENTOS---------------------*/
+.autobus {
+	text-align: center;
+	padding-left: 18%;
+	padding-right: 18%;
+}
+.autobus p {
+	font-size: 20px;
+	color: #CD853F;
+	text-align: center;
+	margin-top: 5px;
+}
+.info_asientos ul {
+	margin-top: 10px;
+	width:860px;
+	text-align:center;
+	overflow:auto;
+}
+
+.info_asientos li {
+	margin-left: 10px;
+}
+
+.info_asientos p {
+	margin-top: 5px;
+}
+
+	#holder{	
+		height:230px;	 
+		width:820px;
+		background-color:#f6ddcc;
+		border:2px solid #FF9900;
+		margin-top:10px;	
+		top:60%;
+		left:60%;
+	}
+	#place {
+		position:relative;
+		margin:7px;
+	}
+	#place a{
+		font-size:0.7em;
+		color:#34495e; 
+	}
+	#place li {
+		list-style: none outside none;
+		position: absolute;   
+	}    
+	#place li:hover {
+		background-color:#CD853F;      
+	} 
+	#place .seat {
+		background:url("img/available_seat_img.gif") no-repeat scroll 0 0 transparent;
+		height:33px;
+		width:33px;
+		display:block;	 
+	}
+	#place .selectedSeat { 
+		background-image:url("img/booked_seat_img.gif");      	 
+	}
+	#place .selectingSeat { 
+		background-image:url("img/selected_seat_img.gif");      	 
+	}
+	#place .row-3, #place .row-4 {
+		margin-top:10px;
+	}
+	#seatDescription{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	#seatDescription li {	  
+		list-style: none outside none;
+		padding-left:35px;
+		height:35px;
+		float:left;
+	}
+/*
+#asiento_libre {
+	background:url('img/available_seat_img.gif') no-repeat scroll 0 0 transparent;
+}
+#asiento_ocupado {
+	background:url('img/booked_seat_img.gif') no-repeat scroll 0 0 transparent;
+}
+#asiento_seleccionado {
+	background:url('img/selected_seat_img.gif') no-repeat scroll 0 0 transparent;
+}
+*/
+
+
+/*-------------------/ASIENTOS---------------------*/
+
+
+
+
+
+/*--------------------FORMULARIOS --------------------*/
+.contenedor_formulario{
+	width: 950px;
+	height: auto;
+	
+	float: left;
+	
+	margin-bottom: 20px;
+	margin-left: 200px;
+	margin-top: 30px;
+
+
+	/*background-color: lightblue;
+	border:1px solid red;*/
+}
+
+
+.form_register{
+	width: 55%;
+	max-width: 350px;
+	margin-top: 6px;
+	float: left;
+
+	border-radius: 11px;
+	border: 1px solid lightgrey;
+
+	background-color: transparent;
+}
+
+.form_register p {
+	margin-top: 11px;
+	margin-left: 24px;
+}
+
+.form_register_slider{
+	width: 400px;
+	height: auto;
+	max-width: 400px;
+	max-height: 350px;
+	margin-top: 15px;
+	margin-left: 105px;
+	position: absolute;
+
+	border: 1px solid lightgrey;
+
+	/*background-color: #F5F4F1;*/
+	background-color: transparent;
+}
+
+.form_register_slider input{
+
+	margin-bottom: 15px;
+	/*padding: 15px;*/
+
+}
+
+
+.form_titulo{
+
+	
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 15px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+
+
+	border-bottom: 2px solid #FDC580;
+	background: #414546;
+}
+
+.contenedor-inputs{
+	padding: 15px;	
+
+	
+	 background-color:rgba(251,251,251,0.2);
+
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.input_100x20{
+	display: block;
+	padding: 5px;
+	width: 100%;
+	margin: 10px 0;
+	font-size: 12px;
+
+}
+
+.input_100x15{
+	display: block;
+	padding: 5px;
+	width: 100%;
+	margin: 10px 0;
+	font-size: 12px;
+	width: 90%;
+}
+
+.input_100x20[type=submit] {
+	border:0;
+	color: black;
+	opacity: 0.8;
+	background-color: lightgrey;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 10px;
+
+
+
+}
+
+.w8em{
+	display: block;
+	padding: 5px;
+	width: 90%;
+	margin: 10px 0;
+	font-size: 12px;
+}
+.input_100x20[type=submit]:hover {
+
+	opacity: 1;
+}
+
+.input_48x20{
+	display: block;
+	padding: 5px;
+	width: 48%;
+	margin: 10px 0;
+	font-size: 12px;
+}
+
+
+
+.input_100{
+	width: 100%;	
+}
+
+
+.formu_valorar select, .formu_valorar input{
+	display: inline;
+}
+
+/*botones provisionales*/
+.boton_provisional{
+
+	width: 320px;
+	margin-top: 20px;
+	padding: 10px 40px;
+}
+
+.boton_provisional1{
+	height: 50px;
+	width: 300px;
+	margin-left: 300px;
+	margin-top: 10px;
+	padding: 10px 70px;
+
+}
+
+.boton_provisional2{
+
+	width: 520px;
+	margin-left: 190px;
+	margin-top: 90px;
+	padding: 10px 40px;
+
+}
+
+.boton_provisional3{
+	height: 50px;
+	width: 200px;
+	margin-left: 240px;
+	margin-top: 10px;
+	padding: 10px 40px;
+
+}
+
+.boton_provisional4 {
+	width: 100%;
+	padding: 15px 40px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.boton_provisional5 {
+	height: 50px;
+	width: 200px; 
+	margin-left: 130px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 10px 40px;
+}
+
+.btn {
+  background: #f7c956;
+  width: 300px;
+  height: 40px;
+  background-image: -webkit-linear-gradient(top, #f7c956, #fac16c);
+  background-image: -moz-linear-gradient(top, #f7c956, #fac16c);
+  background-image: -ms-linear-gradient(top, #f7c956, #fac16c);
+  background-image: -o-linear-gradient(top, #f7c956, #fac16c);
+  background-image: linear-gradient(to bottom, #f7c956, #fac16c);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+}
+
+.btn:hover {
+  background: #ffe091;
+  background-image: -webkit-linear-gradient(top, #ffe091, #f5c147);
+  background-image: -moz-linear-gradient(top, #ffe091, #f5c147);
+  background-image: -ms-linear-gradient(top, #ffe091, #f5c147);
+  background-image: -o-linear-gradient(top, #ffe091, #f5c147);
+  background-image: linear-gradient(to bottom, #ffe091, #f5c147);
+  text-decoration: none;
+}
+
+.btn-2{
+
+	margin-top: 55px;
+	margin-left: 480px;
+	margin-right: 50px;
+
+}
+
+.btn-3{
+
+
+	margin-left: 55px;
+
+}
+
+
+
+.form_register:nth-child(2){
+
+	margin-left: 180px;
+
+
+}
+/*--------------------FORMULARIOS --------------------*/
+
+/* -------------------QUIENES SOMOS - ACTIVIDAD - PERSONAS - AVISO LEGAL - CONTACTO - valorar-------*/
+.contenedor_general{
+	
+	width: 950px;
+	height: auto;
+	float: left;
+
+
+	margin: 30px 208px 90px 208px;
+	
+
+
+
+	/*background-color: lightblue;
+	border:1px solid red;*/
+
+}
+
+
+.cabecera{
+	
+	padding: 30px;
+	height: 100px;
+	text-align: left;
+
+	/*background-color: lightgreen;*/
+
+}
+.contenedor_general .menu_izq{
+
+
+	width: 200px;
+	height: 800px;
+	padding: 0px 10px 10px 10px;
+	float: left;
+
+	/*background-color: #CBD890;*/
+	/*border:1px solid orange;*/
+
+}
+
+.menu_izq ul{
+
+	list-style: none;
+	text-align: left;
+	height: 200px;
+	border: 0.2px solid lightgrey;
+	background-color: white;
+
+	/*background-color: lightyellow;*/
+}
+
+.menu_izq ul li{
+
+	height: 55px;
+	padding: 15px 15px 25px 15px;
+	border-bottom: 0.1px solid #F0F0F0;
+	margin-top: 10px;
+
+	font-family: lusitana;
+
+
+	/*background-color: yellow;
+	border-bottom:1px solid orange;*/
+}
+
+.menu_izq ul li:last-child{
+		border-bottom:none;
+
+}
+
+.menu_izq ul li a:hover{
+
+	color: #FDC580;
+}
+.contenedor_imagen{
+
+	width: 668px;
+	height: 180px;
+	margin: auto;
+	border-bottom: 1px solid lightgrey;
+
+	/*background-color: yellow;*/
+}
+
+.contenedor_imagen .imagen_ancho{
+
+	width: 100%;
+	height: 90%;
+	background-color: blue;
+
+}
+
+.contenedor_imagen .imagen_ancho img{
+
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+.contenedor_editable_general{
+
+	width: 700px;
+	height: auto;
+	float: left;
+	margin-left: 25px;
+	padding: 10px;
+	border:1px solid lightgrey;
+	background-color: white;
+	
+	
+	
+	/*background-color: pink;*/
+}
+
+
+.texto_contenedor_general{
+
+	width: 668px;
+	height: auto;
+	min-height: 300px;
+	text-align: left;
+	margin: auto;
+	margin-top: 40px;
+
+
+	
+
+	/*background-color: orange;*/
+}
+
+.texto_contenedor_general p{
+
+	margin: 0 0 10px;
+	font-size: 15px;
+	
+}
+
+.texto_contenedor_general  ul{
+
+	margin-left: 30px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+
+}
+
+
+.texto_contenedor_general ul li{
+    list-style: none;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+.texto_contenedor_general ul li:before {
+    content: "o";
+    color: #048E77;
+    font-size: 20px;
+}
+
+.texto_contenedor_general a{
+
+	color: darkblue;
+	margin-left: 30px;
+	font-size: 13.5px;
+}
+
+
+.texto_contenedor_general a:after{
+
+	padding: 8px;
+	color: #048E77;
+	/*font-weight: 10px;*/
+    font-size: 13px;
+    content: ">";
+}
+
+.titulo_texto{
+	text-align: center;
+	font-size: 18.5px;
+	color: #FF9924;
+	padding-bottom: 10px;
+	text-decoration: underline;
+	
+}
+
+
+.informacion_contenedor_InfoFotos{
+
+	width: 680px;
+	height: 350px;
+	margin: 10px 0px 0px 0px;
+	
+
+	/*background-color: green;*/
+
+}
+
+.informacion_contenedor_InfoFotos .mensajeFoto_contenedor_peque{
+
+	/*si añado mas cuadrados hay que modificar esto para que quepan en una linea*/
+	width: 310.633px; 
+	/*si añado mas cuadrados hay que modificar esto para que la altura al añadir texto sea igual en toodos los cuadros ya que si pongo auto uno es mas alto que otro*/
+	height: 120px; 
+	margin: 35px 0px 0px 20px;
+	float: left;
+	
+	
+
+	/*background-color: lightblue;*/
+
+}
+
+.mensajeFoto_contenedor_peque img{
+	width: 310.633px; 
+	height: 125px; 
+
+
+}
+
+.mensajeFoto_contenedor_peque p{
+	padding-top: 20px;
+	text-align: center;
+	font-family: Arial,"Lucida Grande",sans-serif;
+	font-size: 28px;
+	
+}
+
+.mensajeFoto_contenedor_peque a{
+	color: blue;
+
+}
+
+
+.mapa_google{
+
+	width: 680px;
+	height: 450px;
+	
+	/*background-color: green*/
+}
+
+.mapa_google iframe{
+
+	width: 100%;
+	height: 100%;
+	border:0;
+	
+}
+
+.texto_contenedor_valorar{
+
+	width: 668px;
+	height: auto;
+	min-height: 300px;
+	text-align: left;
+	font-family: Arial,"Lucida Grande",sans-serif;
+	font-size: 15px;
+	margin: auto;
+	
+	/*background-color: orange;*/
+}
+
+.texto_contenedor_valorar a{
+	color: darkblue;
+}
+
+.texto_contenedor_centrado {
+	text-align: center;
+	margin-top: 11px;
+}
+
+.titulo_valorar{
+	text-align: center;
+	font-family: Arial,"Lucida Grande",sans-serif;
+	font-size: 18.5px;
+	color: #DF0101;
+	padding-bottom: 10px;
+	
+}
+
+.titulo_valorar a{
+	color: #DF0101;
+	text-decoration: underline;
+}
+
+
+.anuncio {
+	display: none;
+	width: auto;
+	height: 50px;
+	text-align:center;
+}
+
+.textomuestra {
+	width: 310px;
+}
+
+.fotoCarga img#fotoCargaBus {
+	width: 310px;
+	height: 50px;
+}
+
+.fotoCarga img#fotoCargaBarra{
+	width: 310px;
+	height: 20px;
+}
+
+/*----------------- /QUIENES SOMOS - ACTIVIDAD - PERSONAS - AVISO LEGAL - CONTACTO----------------------------------*/
+
+/* MAPA */
+.imagenMAP {
+	margin-top: 10px;
+	width: 25px;
+	
+}
+
+.MAPADIV {
+	display:none;
+}
+/* /MAPA */
+
+
+/* ------------ pagina de inicio información--------------- */
+.informacion_contenedor_grande{
+
+	width: 1349px;
+	height: auto;
+	min-height: 300px;
+	float: left;
+	padding: 20px;
+
+	/*background-color: lightblue;*/
+	background-color: white;
+
+
+}
+
+.informacion_contenedor_grande .informacion_contenedor_grande_inside h2{
+
+	width: 100%;
+	height: 70px;
+	
+	float: left;
+	
+	margin-top: 50px;
+
+	font-size: 45px;
+	text-align: center;
+
+	
+
+	color: orange;
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.informacion_contenedor_grande_inside p{
+
+	margin-left: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+#espacio{
+	margin-top: 50px;
+}
+
+
+.informacion_contenedor_inicio1{
+
+	width: 1349px;
+	height: auto;
+
+	float: left;
+	padding: 20px;
+
+	/*border-top: 1px solid orange;*/
+
+}
+
+.imagen_redondas_contenedor{
+
+	width: 31%;
+	height: 160px;
+	float: left;
+
+	margin-left: 10px;
+
+
+	background-image: url("img/circulos_info.jpg");
+	background-repeat: no-repeat;
+
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+	color: white;
+
+  
+   /*background-color: red;*/
+
+
+
+
+}
+
+
+.bloque1{
+
+
+	width: 100px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+
+
+   /* background-color: red;*/
+}
+
+.bloque2{
+
+
+	width: 100px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: center;
+
+   
+   /* background-color: blue;*/
+}
+
+.bloque3{
+
+
+	width: 100px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: center;
+
+    /*background-color: yellow;*/
+}
+
+.bloque_center{
+
+	width: 400px;
+	height: 95px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 100px;
+
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 25px;
+	color: #232526;
+	
+
+
+	/*background-color: purple;*/
+
+}
+
+.bloque_center strong{
+
+	color: orange;
+	font-size: 38px;
+}
+
+.bloque_center strong:hover{
+
+	color: #FBCC5D;
+	font-size: 39px;
+}
+
+.bloque_right{
+	
+	width: 230px;
+	height: 40px;
+	float: left;
+	margin-top: 90px;
+	margin-left: 60px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+	
+	font-size: 18px;
+	border-radius: 200px;
+
+	background: #FFB75E; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FFB75E , #ED8F03); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FFB75E , #ED8F03); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.bloque_right a:hover{
+
+	color: darkblue;
+	font-size: 20px;
+
+}
+
+
+.informacion_contenedor_inicio2{
+
+	width: 1349px;
+	height: auto;
+
+	float: left;
+	padding: 20px;
+
+	background-color: white;
+
+}
+
+.titulo_informacion_contenedor_inicio2{
+
+
+	width: 70%;
+	height: 50px;
+	
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 35px;
+	color: #333;
+
+
+	/*background-color: pink;*/
+}
+
+
+
+.cuerpo{
+
+	width: 70%;
+	height: 250px;
+	margin: auto;
+
+	/*background-color: lightblue;*/
+
+}
+
+
+.cuerpo_info_contenedor{
+
+	width: 199px;
+	height: 220px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 85px;
+
+
+	/*background-color: lightgreen;*/
+
+}
+
+
+.cuerpo_info_contenedor p{
+
+	height: 35px;
+	text-align: center;
+	margin-top: 18px;
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 25px;
+	color: #232526;
+
+	/*background-color: red;*/
+}
+
+
+.cuerpo_info_contenedor a:hover{
+
+
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 28px;
+	color: darkblue;
+
+}
+
+.cuerpo_info_contenedor a:hover img{
+
+
+	opacity: .8;
+
+}
+
+
+
+.contenedor_img_redonda{
+
+	width: 142px;
+	height: 142px;
+	margin: auto;
+
+	/*background-color: red;*/
+}
+
+/* ------------ /pagina de inicio información--------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*---- ESto es la parte de css que seguramente no usemos en la práctica ya que sirve para mostrar como se verían algunas cosas--------------*/
+
+.informacion_contenedor_datos{
+	width: 100%;
+	height: 450px;
+
+	margin:auto;
+	border-bottom: 1px solid;
+	
+
+}
+
+.informacion_contenedor_datos:nth-child(even){
+
+		background-color: #DDDDDD;
+
+}	
+
+.informacion_contenedor_datos .contenedor_propiedades_datos{
+	
+
+	/*si añado mas cuadrados hay que modificar esto para que quepan en una linea*/
+	width: 346.667px; 
+	/*si añado mas cuadrados hay que modificar esto para que la altura al añadir texto sea igual en toodos los cuadros ya que si pongo auto uno es mas alto que otro*/
+	height: 349px; 
+	margin-top: 10px;
+	margin-left: 70px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	float: left;
+	font-size: 13.5px;
+
+	/*background-color: pink;*/
+
+}
+
+.informacion_contenedor_datos a {
+	margin-top: 50px;
+	margin-left: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+	border: 1px solid rgba(89,194,177,1);
+
+}
+
+
+.contenedor_propiedades_datos p{
+	margin-left: 20px;
+	padding-bottom: 15px;
+
+}
+
+.contenedor_propiedades_datos .titulo{
+
+	width: 100%;
+	height: auto;
+	margin:auto;
+	margin-top: 5px;
+	text-align: center;
+	border-bottom: 1px solid rgba(89,194,177,1);
+		
+
+}
+
+.contenedor_propiedades_datos .nombre, .direccion, .dni_telef{
+
+	width: 100%;
+	height: auto;
+	margin:auto;
+	margin-top: 5px;
+	text-align: left;
+	
+	border-bottom: 1px solid rgba(89,194,177,1);
+	
+	/*background-color: yellow;*/
+
+}
+
+
+.titulo, .nombre, .direccion, .dni_telef p{
+	padding-top: 9px;
+	padding-right: 3px;
+	font-size: 19px;
+}
+
+.informacion_contenedor_billetes{
+	width: 100%;
+	height: 510px;
+
+	margin:auto;
+	/*margin-bottom: 50px;*/
+	/*border-bottom: 1px solid rgba(89,194,177);*/
+	
+
+}
+
+/*.informacion_contenedor_billetes:last-child{
+
+		background-color: white;
+		
+
+
+}	*/
+
+.informacion_contenedor_billetes .contenedor_propiedades_billetes{
+	
+
+	/*si añado mas cuadrados hay que modificar esto para que quepan en una linea*/
+	width: 346.667px; 
+	/*si añado mas cuadrados hay que modificar esto para que la altura al añadir texto sea igual en toodos los cuadros ya que si pongo auto uno es mas alto que otro*/
+	height: 349px; 
+	margin-top: 10px;
+	margin-left: 70px;
+	padding-top: 9px;
+	padding-bottom: 19px;
+	float: left;
+	font-size: 13.5px;
+
+	/*background-color: pink;*/
+
+}
+
+
+.contenedor_propiedades_billetes p{
+	margin-left: 20px;
+	padding-bottom: 15px;
+
+
+}
+
+.contenedor_propiedades_billetes .viaje{
+
+	width: 100%;
+	height: auto;
+	margin:auto;
+	margin-top: 5px;
+	text-align: center;
+	border-bottom: 1px solid darkgrey;
+	background-color:  orange;
+		
+
+}
+
+.contenedor_propiedades_billetes .horario, .opciones{
+
+	width: 100%;
+	height: auto;
+	margin:auto;
+	margin-top: 5px;
+	text-align: left;
+	
+	border-bottom: 1px solid darkgrey;
+	
+	/*background-color: yellow;*/
+
+}
+
+.adminAnadir {
+	text-align: center;
+}
+
+.viaje, .horario, .opciones p{
+	padding-top: 9px;
+	padding-right: 3px;
+	font-size: 19px;
+}
+
+
+.imagen_bus_asientos{
+
+
+	width: 650px;
+	height: 250px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+
+/*	background-color: yellow;*/
+
+
+}
+
+.imagen_bus_asientos img{
+
+
+	width: 100%;
+	height: 100%;
+	
+}
+
+.boton{
+
+	float: left;
+	margin-top: 30px;
+	margin-left: 55px;
+}
+
+/* ESto es la parte de css que seguramente no usemos en la práctica ya que sirve para mostrar como se verían las c
+
+
+
+
+/***** borrar? ************/
+
+.informacion_contenedor1{
+
+	width: 1349px;
+	height: 400px;
+
+	margin:auto;
+	/*background-color: #F5F4F1;*/
+	border-bottom: 1px solid #F5F4F1;
+
+	background-color: white;
+}
+
+/*.mensajeInfo_contenedor_mediano:nth-child(3){
+
+		border-right: 1px solid red;
+}	*/
+
+
+.informacion_contenedor1 .mensajeInfo_contenedor_mediano{
+
+	/*si añado mas cuadrados hay que modificar esto para que quepan en una linea*/
+	width: 346.667px; 
+	/*si añado mas cuadrados hay que modificar esto para que la altura al añadir texto sea igual en toodos los cuadros ya que si pongo auto uno es mas alto que otro*/
+	height: 349px; 
+	margin-left: 84.5px;
+	margin-top: 30px;
+	padding-top: 9px;
+	padding-right: 35px;
+	padding-bottom: 9px;
+	float: left;
+	font-size: 13.5px;
+
+	
+
+}
+
+
+.mensajeInfo_contenedor_mediano h3{
+	width: 350px;
+	margin-left: 10px;
+	padding-bottom: 15px;
+	font-family: "HelveticaNeue-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color:#333;  /* fallback for old browsers */
+
+;
+
+	/*background-color: red;*/
+
+
+}
+
+.mensajeInfo_contenedor_mediano p{
+	margin-left: 20px;
+	padding-bottom: 15px;
+
+
+}
+
+.mensajeInfo_contenedor_mediano img{
+	width: 80%;
+	height: 240px;
+	margin-left: 20%;
+	border-radius: 100%;
+
+	float: left;
+
+	
+
+
+}
+
+.mensajeInfo_contenedor_mediano img:hover{
+	
+	opacity: 0.8;
+}
+
+
+
+/******************************** administracion *******************************/
+
+.contenedor_pagina_admin{
+
+
+	width: 1349px;
+	height: auto;
+	min-height: 600px;
+	float: left;
+	border: none;
+	/*background: url("img/admin.png");*/
+	/*background-color: pink;*/
+	background: cover;
+
+}
+
+
+.foto_usuario{
+
+
+
+	width: 250px;
+	height: 250px;
+	margin-top: 35px;
+	margin-left: 550px;
+	float: left;
+	border-radius: 100%;
+
+	background-color: transparent;
+
+}
+
+.foto_usuario img{
+
+
+	width: 190px;
+	height: 190px;
+	margin-left: 29px;
+	margin-top: 10px;
+
+
+}
+
+
+.contenedor_opciones{
+
+	width: 500px;
+	height: 480px;
+	float: left;
+	margin-left: 420px;
+	margin-top: 30px;
+
+
+
+
+	/*background-color: red;*/
+}
+
+
+.contenedor_opciones ul li{
+
+
+	height: 65px;
+	
+	padding: 20px;
+	text-align: center;
+	display: block;
+	border-bottom: 1px solid orange;
+
+
+
+	background-color: white;
+}
+
+
+.contenedor_opciones li:last-child{
+
+	border-bottom: none;
+
+}
+
+.contenedor_opciones a{
+
+	font-family: rale;
+}
+
+
+.contenedor_opciones ul li a:hover{
+	color: black;
+	opacity: 0.5;
+
+}
+
+.eliminar_td td{
+
+	
+	width: 15px;
+	background-color: lightblue;
+}
+
+#elim{
+
+	text-decoration: none;
+	color: red;
+
+
+}
+
+
+.adminAnadir{
+
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+
+
+/*boton modificar x*/
+#form_modificar{
+	width: 100px;
+	height: 20px;
+	
+	margin-left: 22px;
+
+	background-color: transparent;
+}
+
+#form_modificar #modificar{
+
+	width: 128px;
+
+	font-size: 15px;
+	font-family: rale;
+	color: darkblue;
+	margin-left: -18px;
+	background-color: transparent;
+	border:none;
+	
+	
+}
+
+#form_modificar #modificar:hover{
+
+	opacity: 0.8;
+	font-size: 18px;
+}
+
+
+/*boton eliminar x*/
+#form_eliminar{
+	width: 100px;
+	height: 20px;
+	
+	margin-left: 22px;
+
+	background-color: transparent;
+
+}
+
+#ver{
+
+	width: auto;
+	min-width: 100%;
+
+	border: 0.5px solid lightgrey;
+	border-radius: 5px;
+
+	background-color: #FCEBAE;
+	font-size: 17px;
+
+}
+
+#ver:hover{
+
+	background-color: #FEE27D;
+
+}
+
+
+
+#form_eliminar #borrar{
+
+	width: 128px;
+
+	font-size: 15px;
+	font-family: rale;
+	color: red;
+	margin-left: -18px;
+	background-color: transparent;
+	border:none;
+	
+	
+}
+
+#form_eliminar #borrar:hover{
+
+	opacity: 0.8;
+	font-size: 18px;
+}
+
+
+
+.cambiar_datos_container{
+
+	padding-top: 50px;
+
+	float: left;
+	margin-left: 150px;
+	height: 500px;
+	width: 500px;
+
+}
+
